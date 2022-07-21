@@ -4,16 +4,20 @@
       "name": "Dexter Hardy",
       "email": "dexter.hardy@ntegral.com",
       "url": "http://www.ntegral.com"
+    },
+    {
+      "name": "Aung Thiha",
+      "email": "aungthiha.160898@gmail.com"
     }
   ],
-  "name": "@ntegral/nestjs-sentry",
-  "version": "3.0.7",
-  "description": "Provides an injectable sentry.io client to provide enterprise logging nestjs modules",
+  "name": "@xiifain/nestjs-sentry",
+  "version": "4.0.0",
+  "description": "This is a fork of https://github.com/ntegral/nestjs-sentry to support NestJS 9.",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ntegral/nestjs-sentry"
+    "url": "git+https://github.com/xiifain/nestjs-sentry"
   },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
